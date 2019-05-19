@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: docker-registry.newteam6.k8.devfactory.com/tamer-inawy/devhub-test-teams7
+  tag: 0.0.5
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
